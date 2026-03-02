@@ -208,7 +208,7 @@ func createFileLogger(verbose bool, meta []logInitMeta, logDir string, rotateCon
 	_ = os.MkdirAll(logDir, fs.FileMode(0700))
 
 	for _, m := range meta {
-		log, level, err := CreateLogger(path.Join(logDir, m.fileName), false, false, verbose, rotateConfig)
+		log, level, err := CreateLogger(path.Join(logDir, m.fileName), true, false, verbose, rotateConfig)
 		if err != nil {
 			return err
 		}
