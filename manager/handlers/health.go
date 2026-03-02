@@ -35,3 +35,18 @@ import (
 func (h *Handlers) GetHealth(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, http.StatusText(http.StatusOK))
 }
+
+// @Summary Health Check for ICBC.
+// @Description Get app health
+// @Tags Health
+// @Accept json
+// @Produce json
+// @Success 200
+// @Failure 400
+// @Failure 404
+// @Failure 500
+// @Router /health/check [get]
+func (h *Handlers) GetHealthCheck(ctx *gin.Context) {
+	// 返回字符串 "@the@health@is@good@"
+	ctx.String(http.StatusOK, "@the@health@is@good@")
+}
