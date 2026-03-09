@@ -260,6 +260,9 @@ func Init(cfg *config.Config, logDir string, service service.Service, database *
 	// Health Check.
 	r.GET("/healthy", h.GetHealth)
 
+	// Health Check for ICBC.
+	r.GET("/health/check", h.GetHealthCheck)
+
 	// Swagger.
 	apiSeagger := ginSwagger.URL("/swagger/doc.json")
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, apiSeagger))
