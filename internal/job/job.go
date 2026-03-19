@@ -195,7 +195,6 @@ func (t *Job) SetTaskResults(data []string, jobName string) (string, error) {
 	for _, val := range data {
 		if err := t.rdb.SAdd(ctx, key, val).Err(); err != nil {
 			logger.Errorf("Failed to SAdd: %v", err)
-			return "", err
 		}
 	}
 
