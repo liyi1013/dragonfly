@@ -1223,8 +1223,8 @@ github.com/pkg/profile v1.2.1/go.mod h1:hJw3o1OdXxsrSjjVksARp5W95eeEaEfptyVZyv6J
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/polardb/polardbx-connector-go v1.0.3-18 h1:MYnHWfw5lmLMckgf4TEkC+4zEVT5hdJ6rfkfOFmYX9Q=
-github.com/polardb/polardbx-connector-go v1.0.3-18/go.mod h1:K4hS3ohvDEsB6Feep7OyStiI8Ni+0ChnYiA414DEP+M=
+github.com/polardb/polardbx-connector-go v1.0.4-18 h1:hNyZpPJ0dB++0iI0UE9aAScKQMvPFZ+ykilQRYu47Wg=
+github.com/polardb/polardbx-connector-go v1.0.4-18/go.mod h1:K4hS3ohvDEsB6Feep7OyStiI8Ni+0ChnYiA414DEP+M=
 github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndrE9hABlRI=
 github.com/power-devops/perfstat v0.0.0-20220216144756-c35f1ee13d7c h1:NRoLoZvkBTKvR5gQLgA3e0hqjkY9u1wm+iOL45VN/qI=
 github.com/power-devops/perfstat v0.0.0-20220216144756-c35f1ee13d7c/go.mod h1:OmDBASR4679mdNQnz2pUhc2G8CO2JrUAVFDRBDP/hJE=
